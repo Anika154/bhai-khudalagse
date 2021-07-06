@@ -1,10 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin-left: 3px;
+    margin-bottom: 0%;
 }
 h1 {
     font-size: 50px;
     font-weight: 900;
+    text-align: start;
 }
 p {
     color:gray;
@@ -114,6 +116,37 @@ h3{
     width: 90%;
     margin: 5%;   
     border-radius: 40px;   
+}
+.popular{
+    background: lightgrey;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.popular h2{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: none;
+    font-size: 45px;
+}
+.popular h4{
+    justify-content: flex;
+    font-size: 20px;
+    text-align: center;
+}
+.popular p{
+    text-align: center;
+    font-size: 20px;
+}
+.review{
+    padding-bottom: 5%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#ADD8E6 , #5D8896);
+    padding: 25px 608px;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
 }
 .followers{
     width: 80%;
